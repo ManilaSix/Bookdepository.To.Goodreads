@@ -30,7 +30,7 @@
 
     function createAnchor(isbnNo) {
 		var anchor = document.createElement('a');
-		anchor.text = isbnNo + ' (to GoodReads \u21D7)';
+		anchor.text = isbnNo + ' (to Goodreads \u21D7)';
 		anchor.target = '_blank';
 		anchor.style='background-color:#F4F1EA';
 		anchor.href = ('https://www.goodreads.com/search?utf8=%E2%9C%93&q={isbn}&search_type=books&search%5Bfield%5D=on').replace('{isbn}', isbnNo);
